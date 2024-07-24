@@ -70,8 +70,8 @@ To run the project locally:
    - Users receive notifications about updates and resolutions.
 
 ## Contributors
-- [Sai Sanjay Guntupalli](https://github.com/SaiSanjayGuntupalli)
-
+- **[Sai Sanjay Guntupalli](https://github.com/SaiSanjayGuntupalli)**
+  - Feel free to try the mobile application by accessing it through the APK provided.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
