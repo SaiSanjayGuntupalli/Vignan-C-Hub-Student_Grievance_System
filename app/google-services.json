@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "278832778762",
+    "firebase_url": "https://studentcomplaintmanageme-5dd42-default-rtdb.firebaseio.com",
+    "project_id": "studentcomplaintmanageme-5dd42",
+    "storage_bucket": "studentcomplaintmanageme-5dd42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278832778762:android:148c692f2b40b39f10d9f3",
+        "android_client_info": {
+          "package_name": "com.example.studentcomplaintmanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr8pbfvPh-XnE46TDfAkdr_D3C84XxRfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

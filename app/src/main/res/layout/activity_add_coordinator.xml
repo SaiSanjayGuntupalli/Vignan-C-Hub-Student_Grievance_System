@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    tools:context=".AddCoordinator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#00AABB"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Coordinator"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#DDFF00"/>
+
+        <EditText
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Enter UserName"
+            android:id="@+id/coordinatorusername"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:hint="Enter User Password"
+            android:inputType="textPassword"
+            android:id="@+id/coordinatorpassword"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:hint="Retype Password"
+            android:inputType="textPassword"
+            android:id="@+id/coordinatorconformpassword"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="Enter User Mail"
+            android:id="@+id/coordinatoremail"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:inputType="phone"
+            android:hint="Enter User Mobile"
+            android:id="@+id/coordinatormobile"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/coordinatordepartment"
+            android:spinnerMode="dropdown"/>
+
+        <TextView
+            android:textColor="#B00BF0"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="choose your gender"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+        <RadioGroup
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radiogroupgender2">
+            <RadioButton
+                android:layout_width="0dp"
+                android:checked="true"
+                android:layout_weight="1"
+                android:id="@+id/radioMale2"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                />
+            <RadioButton
+                android:id="@+id/radioFemale2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerButton"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:text="Add Coordinator" />
+
+    </LinearLayout>
+
+</ScrollView>
