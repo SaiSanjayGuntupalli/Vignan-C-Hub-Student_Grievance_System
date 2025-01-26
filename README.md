@@ -46,7 +46,7 @@ The **Vignan C-Hub:Student Grievance Management System** is a mobile application
 To run the project locally:
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/SaiSanjayGuntupalli/temp.git
+   git clone https://github.com/SaiSanjayGuntupalli/Vignan-C-Hub-Student_Grievance_System.git
    ```
 2. **Open in Android Studio:**
    - Navigate to `File > Open` and select the cloned directory.
